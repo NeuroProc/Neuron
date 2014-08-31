@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+char *test(void);
+
+int main(void)
+{
+    printf("%s\n", test());
+
+    return 0;
+}
+
+char *test(void)
+{
+    char *res;
+
+    res = malloc(6);
+    strcpy(res, "hello");
+
+    return res;
+}

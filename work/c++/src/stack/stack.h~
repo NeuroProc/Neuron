@@ -1,0 +1,14 @@
+/*
+* STACK HEADER BY ARTYOM4iK
+*/
+
+struct stack {
+    struct note {
+        void *data;
+        note *next;
+    } head;
+    void initialize(note);
+    void push(void *);
+    void *pop();
+    void cleanup();
+};

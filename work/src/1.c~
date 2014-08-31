@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char *s = NULL;
+
+
+    printf("%d\n",sizeof(s));
+
+    s = malloc(10);
+
+    printf("%d\n",sizeof(s));
+
+    free(s);
+
+    return 0;
+}

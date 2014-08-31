@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+    double c = 0xa.5;
+
+    printf("%f\n", c);
+
+    return 0;
+}

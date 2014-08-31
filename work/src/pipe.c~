@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+int main(void) {
+
+	int p[2];
+	char *buf = "123456";
+	char tmpbuf[100];
+
+	pipe(p);
+
+
+	if (fork() == 0) {
+		sleep(3);
+		write(p[1], "OLOLO", 6);
+		exit(0);
+	}
+
+	read(p[0], tmpbuf, 100);
+	printf("%s\n", tmpbuf);
+/*	
+	write(p[1], "OLOLO", 6);
+	read(p[0], tmpbuf, 100);
+	printf("%s\n", tmpbuf);
+*/
+	return 0;
+}
+	
+
+	
