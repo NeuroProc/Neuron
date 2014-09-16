@@ -8,4 +8,5 @@ xsetroot -cursor_name left_ptr
 #exec xmonad > ~/.xmonad/pipe
 #feh --bg-fill reWalls.com-16593.1.jpg
 eval $(cat ~/.fehbg)
+eval `ssh-agent`
 exec xmonad
