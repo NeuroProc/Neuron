@@ -218,6 +218,7 @@ myManageHook = composeAll
     , className =? "Skype"          --> doF W.focusDown 
     , className =? "Transmission"   --> doFloat
     , className =? "Glade-3"        --> doFloat
+    , className =? "miapr_l1"	    --> doFloat
     -- , className =? "GQview"         --> doFloat
     -- , className =? "Wine"           --> doFloat
     , className =? "Xchat"          --> doF (W.shift "2:irc")
