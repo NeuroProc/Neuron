@@ -1,0 +1,5 @@
+cryptography  And - data  3 456 **security
+
+The notion of greatest common divisor can more generally be defined for elements of an arbitrary commutative ring although in general there need not exist one for every pair of elements If R is a commutative ring and a and b are in R then an element d of R is called a common divisor of a and b if it divides both a
+The notion of greatest common divisor can more generally be defined for elements of an arbitrary commutative ring although in general there need not exist one for every pair of elements If R is a commutative ring and a and b are in R then an element d of R is called a common divisor of a and b if it divides both a
+The notion of greatest common divisor can more generally be defined for elements of an arbitrary commutative ring although in general there need not exist one for every pair of elements If R is a commutative ring and a and b are in R then an element d of R is called a common divisor of a and b if it divides both a
