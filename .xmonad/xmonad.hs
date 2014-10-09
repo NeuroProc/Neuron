@@ -44,7 +44,6 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     -- , ((mod4Mask,               xK_p     ), spawn "exe=`dmenu_path | dmenu` && eval \"exec $exe\"")
     , ((mod4Mask,		xK_p     ), spawn "dmenu_run")
     , ((mod4Mask,               xK_b     ), sendMessage ToggleStruts)
-
     , ((mod4Mask               , xK_Up       ), spawn "mixer vol +10")
     , ((mod4Mask               , xK_Down     ), spawn "mixer vol -10")
 
@@ -215,14 +214,14 @@ myManageHook = composeAll
     , className =? "Gimp"           --> doFloat
     , className =? "VirtualBox"     --> doFloat
     -- , className =? "ROX-Filer"      --> doFloat
-    , className =? "Skype"          --> doF W.focusDown 
+    , className =? "Linphone"       --> doFloat 
     , className =? "Transmission"   --> doFloat
     , className =? "Glade-3"        --> doFloat
     , className =? "miapr_l1"	    --> doFloat
     -- , className =? "GQview"         --> doFloat
     -- , className =? "Wine"           --> doFloat
     , className =? "Xchat"          --> doF (W.shift "2:irc")
-    , className =? "Skype"          --> doF (W.shift "3:im")
+    , className =? "linphone"       --> doF (W.shift "3:im")
     , className =? "Firefox"        --> doF (W.shift "6:web")
     , className =? "ROX-Filer"      --> doF (W.shift "9:rox")
     , resource  =? "desktop_window" --> doIgnore
