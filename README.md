@@ -1,14 +1,13 @@
---------------MAN IMAGE---------------
+#MAN IMAGE
+
 http://i.imgur.com/e2v5jyc.png
 
 
---------------DLL CREATE-------------
+#DLL CREATE
+
 EXPORT DEFINES:
-#ifdef BUILDING_XML_DLL
-#define XML_DLL __attribute__((visibility ("default")))
-#else
-#define XML_DLL
-#endif
+BUILDING_XML_DLL
+XML_DLL __attribute__((visibility ("default")))
 
 DLL BUILD:
 c++ -fPIC -c -DBUILDING_XML_DLL xml.cpp
