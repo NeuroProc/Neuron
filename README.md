@@ -21,4 +21,9 @@ ln -s libxml.s0.1.0 libxml.so
 TEST BUILD:
 c++ test.cpp -o testbin -L. -lxml
 
+TEST LAUNCH:
+FreeBSD: setenv LD_LIBRARY_PATH .
+Linux:   LD_LIBRARY_PATH=.
+./testbin
+
 
