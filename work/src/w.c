@@ -17,10 +17,11 @@ int main(void) {
 		printf("%ld %ld %d %d\n",waitpid(-1,NULL,0),waitpid(-1,NULL,0),errno, ECHILD);
 	}
 */
+	
+	unsigned long a = 0;
+	
 
-	int a = 5 == 1 ? 2 : 3;
-
-	printf("%d\n", a);
+	printf("%lu\n", ~a);
 
 	return 0;
 }

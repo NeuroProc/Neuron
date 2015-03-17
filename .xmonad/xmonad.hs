@@ -75,7 +75,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
     -- misc
     -- , ((mod4Mask                 , xK_F8     ), spawn "~/.rc.d/x11/xmonad/mousekbd")
-    -- , ((mod4Mask                 , xK_F9     ), spawn "xrandr              --output VGA1 --auto --primary; ~/.rc.d/x11/xmonad/wallpaper")
+    , ((mod4Mask                 , xK_F4     ), spawn "xrandr --output HDMI3 --auto --scale 1.17x1.17 --primary")
     -- , ((mod4Mask .|. controlMask , xK_F9     ), spawn "xrandr -s 1280x1024 --output VGA1 --auto --primary; ~/.rc.d/x11/xmonad/wallpaper")
     -- , ((mod4Mask                 , xK_F10    ), spawn "~/bin/s2ram.sh")
     -- , ((mod4Mask                 , xK_F11    ), spawn "xrdb ~/.Xdefaults")
@@ -91,6 +91,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
     -- , ((0                        , xK_Scroll_Lock), spawn "xset dpms force standby")
     , ((0			, xK_Print),       spawn "~/bin/screenshot.sh")
+    , ((mod1Mask                , xK_Print),       spawn "~/bin/screenshot-active.sh")
 
     -- launch gmrun
     -- , ((mod4Mask .|. shiftMask, xK_p     ), spawn "gmrun")

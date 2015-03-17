@@ -1,11 +1,18 @@
 #include <stdio.h>
 
+int foo()
+{
+	return 1,2;
+}
+
 int main(void)
 {
-    double c = 0xAE2;
-    float a = 0xA;
+    //double c = 0xAE2;
+    //float a = 0xA;
 
-    printf("%f\n", c);
+    printf("%d\n", foo());
 
     return 0;
 }
+
+
