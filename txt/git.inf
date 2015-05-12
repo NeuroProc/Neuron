@@ -1,0 +1,52 @@
+sudo apt-get install xclip
+# Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+
+Alternatively, using your favorite text editor, you can open the ~/.ssh/id_rsa.pub file and copy the contents of the file manually
+
+Now that you have the key copied, it's time to add it into GitHub:
+
+    Account settings buttonIn the user bar in the top-right corner of any page, click .
+    SSH Keys menuClick SSH Keys in the left sidebar.
+    SSH Key buttonClick Add SSH key.
+    In the Title field, add a descriptive label for the new key. For example, if you're using a personal Mac, you might call this key "Personal MacBook Air".
+    The key fieldPaste your key into the "Key" field.
+    The Add key buttonClick Add key.
+    Confirm the action by entering your GitHub password.
+
+Step 4: Test everything out
+
+To make sure everything is working, you'll now try SSHing to GitHub. When you do this, you will be asked to authenticate this action using your password, which was the passphrase you created earlier.
+
+Open up your Terminal and type:
+
+ssh -T git@github.com
+# Attempts to ssh to github
+
+It's possible that you'll see this error message:
+
+...
+Agent admitted failure to sign using the key.
+debug1: No more authentication methods to try.
+Permission denied (publickey).
+
+This is a known problem with certain Linux distributions. For a possible resolution, see our help article.
+
+You may see this warning:
+
+# The authenticity of host 'github.com (207.97.227.239)' can't be established.
+# RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+# Are you sure you want to continue connecting (yes/no)?
+
+Don't worry! This is supposed to happen. Verify that the fingerprint in your terminal matches the one we've provided up above, and then type "yes."
+
+# Hi username! You've successfully authenticated, but GitHub does not
+# provide shell access.
+
+If that username is yours, you've successfully set up your SSH key! Don't worry about the "shell access" thing, you don't want that anyway.
+
+If you receive a message about "access denied," you can read these instructions for diagnosing the issue.
+
+If you're switching from HTTPS to SSH, you'll now need to update your remote repository URLs. For more information, see Changing a remote's URL.

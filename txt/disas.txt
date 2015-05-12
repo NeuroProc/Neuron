@@ -1,0 +1,16 @@
+set args
+disas
+breakpoint
+b *0x.... //set b to address
+run
+x/20x $esp  //start from esp
+
+x/20x addr  //start from addr
+
+/////////////////
+
+set follow-fork-mode [child/parent]
+
+objdump -d file //disassemble and hex view of machine codes
+
+gdbserver host:2345 emacs foo.txt

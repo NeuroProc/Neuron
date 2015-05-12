@@ -1,0 +1,2 @@
+sudo mount_msdosfs -L ru_RU.UTF-8 /dev/da0s4 /mnt
+sudo ntfs-3g -o locale=ru_RU.UTF-8 /dev/da1s1 /mnt

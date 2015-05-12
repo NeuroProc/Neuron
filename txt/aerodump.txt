@@ -1,0 +1,10 @@
+Due to the addition of virtual access points (VAP) in FreeBSD 8 you need to
+create a new wlan device in monitor mode to use with airodump-ng. To do so,
+issue the following command:
+	ifconfig ${VAP_INTERFACE} create wlandev ${INTERFACE} wlanmode monitor
+
+Then run airodump-ng(1) with the newly created interface ${VAP_INTERFACE}.
+
+sudo aireplay-ng --deauth 100 -a CC:3A:61:3A:23:27 -c C8:F7:33:3C:9F:79 wlan1
+
+sudo ifconfig wlan1 create wlandev ath0 wlanmode monitor

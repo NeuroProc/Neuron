@@ -1,0 +1,7 @@
+#man http://superuser.com/questions/858193/how-can-i-ssh-into-my-cloud-9-workspace
+
+sbin/dropbear -E -F -p 2222 -r ./dropbear_rsa_host_key
+ssh Neuron@neurobook.dyndns.org -p 2222 -R 2221:localhost:2222
+
+#on local
+ssh -p 2221 ubuntu@127.0.0.1

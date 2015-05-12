@@ -1,0 +1,5 @@
+xset q
+xset -dpms
+xset s off
+
+xrandr --output LVDS1 --brightness 1

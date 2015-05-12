@@ -1,0 +1,137 @@
+Screen 0: minimum 320 x 200, current 1600 x 900, maximum 8192 x 8192
+LVDS1 connected 1600x900+0+0 (0x4b) normal (normal left inverted right x axis y axis) 310mm x 174mm
+	Identifier: 0x42
+	Timestamp:  1355093595
+	Subpixel:   horizontal rgb
+	Gamma:      1.0:1.0:1.0
+	Brightness: 1.0
+	Clones:    
+	CRTC:       0
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	EDID: 
+		00ffffffffffff0030e4df0200000000
+		00140104901f11780243459759578e28
+		21505400000001010101010101010101
+		010101010101f02540ae60840c303030
+		340036ae1000001af025400263847c30
+		3030340036ae1000001a000000fe0050
+		37464648803134305744310a00000000
+		000041319e0000000002010a20200072
+	scaling mode: Full aspect 
+		supported: None, Full, Center, Full aspect
+  1600x900 (0x4b) 97.120MHz +HSync -VSync *current +preferred
+        h: width  1600 start 1648 end 1696 total 1774 skew    0 clock  54.75KHz
+        v: height  900 start  903 end  907 total  912           clock  60.03Hz
+  1600x900 (0x4c) 97.120MHz +HSync -VSync
+        h: width  1600 start 1648 end 1696 total 2370 skew    0 clock  40.98KHz
+        v: height  900 start  903 end  907 total 1024           clock  40.02Hz
+  1024x768 (0x4d) 65.000MHz -HSync -VSync
+        h: width  1024 start 1048 end 1184 total 1344 skew    0 clock  48.36KHz
+        v: height  768 start  771 end  777 total  806           clock  60.00Hz
+  800x600 (0x4e) 40.000MHz +HSync +VSync
+        h: width   800 start  840 end  968 total 1056 skew    0 clock  37.88KHz
+        v: height  600 start  601 end  605 total  628           clock  60.32Hz
+  800x600 (0x4f) 36.000MHz +HSync +VSync
+        h: width   800 start  824 end  896 total 1024 skew    0 clock  35.16KHz
+        v: height  600 start  601 end  603 total  625           clock  56.25Hz
+  640x480 (0x50) 25.175MHz -HSync -VSync
+        h: width   640 start  656 end  752 total  800 skew    0 clock  31.47KHz
+        v: height  480 start  490 end  492 total  525           clock  59.94Hz
+VGA1 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x43
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+HDMI1 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x44
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+DP1 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x45
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+HDMI2 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x46
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+HDMI3 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x47
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+DP2 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x48
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+DP3 disconnected (normal left inverted right x axis y axis)
+	Identifier: 0x49
+	Timestamp:  1355093595
+	Subpixel:   unknown
+	Clones:    
+	CRTCs:      0 1 2
+	Transform:  1.000000 0.000000 0.000000
+	            0.000000 1.000000 0.000000
+	            0.000000 0.000000 1.000000
+	           filter: 
+	Broadcast RGB: Full 
+		supported: Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
