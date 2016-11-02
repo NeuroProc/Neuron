@@ -22,7 +22,7 @@ import System.Exit
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
-myTerminal      = "evilvte"
+myTerminal      = "terminator"
 
 myBorderWidth   = 1
 
@@ -37,7 +37,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
     -- launch a terminal
     [ ((controlMask ,          xK_grave ), spawn $ XMonad.terminal conf)
-    , ((mod4Mask    ,          xK_grave ), spawn "evilvte" )
+    , ((mod4Mask    ,          xK_grave ), spawn "terminator" )
     -- , ((mod4Mask    ,          xK_grave ), spawn "pavucontrol" )
 
     -- launch dmenu
@@ -90,8 +90,8 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     -- , ((mod3Mask                 , xK_f       ), spawn "set_kb_map 5") -- de
 
     -- , ((0                        , xK_Scroll_Lock), spawn "xset dpms force standby")
-    , ((0			, xK_Print),       spawn "~/bin/screenshot.sh")
-    , ((mod1Mask                , xK_Print),       spawn "~/bin/screenshot-active.sh")
+    , ((0			, xK_Print),       spawn "~/bin/imgur-screenshot.sh")
+    -- , ((mod1Mask                , xK_Print),       spawn "~/bin/screenshot-active.sh")
 
     -- launch gmrun
     -- , ((mod4Mask .|. shiftMask, xK_p     ), spawn "gmrun")
