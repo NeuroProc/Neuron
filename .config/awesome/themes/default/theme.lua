@@ -20,7 +20,7 @@ theme.tasklist_bg_focus             = "#000000"
 theme.tasklist_fg_focus             = "#e2ccb0"
 
 theme.percent_low					= "red"
-theme.percent_middle				= "yellow"
+theme.percent_middle				= "#ff8c00"
 theme.percent_high					= "green"
 
 theme.menu_height                   = "16"

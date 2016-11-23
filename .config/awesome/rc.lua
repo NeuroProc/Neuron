@@ -119,7 +119,7 @@ function percent_color(value, reverse)
 end
 
 -- Create a textclock widget
-mytextclock = awful.widget.textclock()
+mytextclock = awful.widget.textclock("<span color='" .. beautiful["fg_focus"] .. "'>%a %b %d, %H:%M </span>")
 
 -- Create a CPU widget
 cpuwidget = wibox.widget.textbox()
